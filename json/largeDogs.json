@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Oslo",
+        "breed": "German Shepherd",
+        "gender": "M",
+        "age": "Adult",
+        "notes": "Will be a loyal companion for any family.",
+        "img": "/images/dogs/oslo.jpg"
+    },
+
+    {
+        "name":"Ebony",
+        "breed": "Black Lab",
+        "gender": "F",
+        "age": "Adult",
+        "notes": "She is a shy but sweet girl.",
+        "img": "/images/dogs/ebony.jpg"
+    },
+
+    {
+        "name": "Bailey",
+        "breed": "Pitbull",
+        "gender": "F",
+        "age":"Adult",
+        "notes": "She is a kind and gentle soul.",
+        "img": "/images/dogs/bailey.jpg"
+    },
+
+    {
+        "name": "Remington",
+        "breed": "Golden Retriever",
+        "gender": "M",
+        "age": "Senior",
+        "notes": "He is a laid-back friend.",
+        "img": "/images/dogs/remington.jpg"
+    },
+
+    {
+        "name": "Maxwell",
+        "breed": "Yellow Lab",
+        "gender":"M",
+        "age": "Adult",
+        "notes": "He is an energetic and lovable pup.",
+        "img": "/images/dogs/maxwell.jpg"
+    },
+
+    {
+        "name": "Blaze",
+        "breed": "Pitbull",
+        "gender":"M",
+        "age":"Adult",
+        "notes": "He is a large dog, but you will find that he is a gentle giant.",
+        "img": "/image/dogs/blaze.jpg"
+    },
+
+    {
+        "name": "Cinnabon",
+        "breed": "Pitbull",
+        "gender":"M",
+        "age": "Puppy",
+        "notes": "He is energetic, but is great with children.",
+        "img": "/images/dogs/cinnabon.jpg"
+    },
+
+    {
+        "name": "Tulip",
+        "breed": "Pitbull",
+        "gender": "F",
+        "age": "Puppy",
+        "notes": "She will make a great family dog.",
+        "img": "/images/dogs/tulip.jpg"
+    },
+
+    {
+        "name": "Sadie",
+        "breed":"Golden Retriever",
+        "gender":"F",
+        "age": "Adult",
+        "notes": "She is the friendliest dog you will ever meet.",
+        "img": "/images/dogs/sadie.jpg"
+    }
+]
