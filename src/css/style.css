@@ -1,22 +1,56 @@
-/* Home Page */
+/* Home Page Banner */
 #cover{
     max-width:100%;
-    
 }
 
 .logo{
     width: 20%;
 }
 
+
 .title{
     text-align: center;
     width: 100%;
     color: white;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .banner{
     display: flex;
     background-color: #a333df;
+}
+
+/*Home page dog selection*/
+.icon{
+    width: 200px;
+}
+
+.icon:hover{
+    transform: scale(1.25);
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+}
+
+.large, .small{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+}
+
+#largeDogs, #smallDogs{
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: darkslategray;
+    color: white;
+}
+
+#largeDogs:hover, #smallDogs:hover{
+    background-color: #a333df;
+    color: white;
 }
 
 @media screen and (min-width: 500px) {
@@ -27,6 +61,11 @@
         max-width: 1000px;
     }
 
+    main{
+        margin-top: 100px;
+    }
+
+    /* Home Page Banner */
     .banner{
         display: none;
     }
@@ -39,12 +78,41 @@
         display: block;
         position: absolute;
         left: 15%;
-        top:25%;
+        top:30%;
+        width: 20%;
     }    
 
     .title{
         display: block;
+        color: white;
+        font-size: 80px;
+        position: absolute;
+        top: 0%;
+        left: 15%;
+        text-align: left;
+    }
+
+    /*Home Dog Selection*/
+    .icon{
+        width: 300px;
+    }
+
+    .large, .small{
+        margin: 85px;
+    }
+
+    #largeDogs, #smallDogs{
+        background-color: white;
+        border: none;
         color: black;
-        font-size: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 40px;
+    }
+
+    #largeDogs:hover, #smallDogs:hover{
+        color: blue;
+        background-color: white;
+        text-decoration: underline;
     }
 }
