@@ -1,11 +1,11 @@
-[
+{"largeDogs": [
     {
         "name": "Oslo",
         "breed": "German Shepherd",
         "gender": "M",
         "age": "Adult",
         "notes": "Will be a loyal companion for any family.",
-        "img": "/images/dogs/oslo.jpg"
+        "img": "images/dogs/oslo.jpg"
     },
 
     {
@@ -14,7 +14,7 @@
         "gender": "F",
         "age": "Adult",
         "notes": "She is a shy but sweet girl.",
-        "img": "/images/dogs/ebony.jpg"
+        "img": "images/dogs/ebony.jpg"
     },
 
     {
@@ -23,7 +23,7 @@
         "gender": "F",
         "age":"Adult",
         "notes": "She is a kind and gentle soul.",
-        "img": "/images/dogs/bailey.jpg"
+        "img": "images/dogs/bailey.jpg"
     },
 
     {
@@ -32,7 +32,7 @@
         "gender": "M",
         "age": "Senior",
         "notes": "He is a laid-back friend.",
-        "img": "/images/dogs/remington.jpg"
+        "img": "images/dogs/remington.jpg"
     },
 
     {
@@ -41,7 +41,7 @@
         "gender":"M",
         "age": "Adult",
         "notes": "He is an energetic and lovable pup.",
-        "img": "/images/dogs/maxwell.jpg"
+        "img": "images/dogs/maxwell.jpg"
     },
 
     {
@@ -50,7 +50,7 @@
         "gender":"M",
         "age":"Adult",
         "notes": "He is a large dog, but you will find that he is a gentle giant.",
-        "img": "/image/dogs/blaze.jpg"
+        "img": "image/dogs/blaze.jpg"
     },
 
     {
@@ -59,7 +59,7 @@
         "gender":"M",
         "age": "Puppy",
         "notes": "He is energetic, but is great with children.",
-        "img": "/images/dogs/cinnabon.jpg"
+        "img": "images/dogs/cinnabon.jpg"
     },
 
     {
@@ -68,7 +68,7 @@
         "gender": "F",
         "age": "Puppy",
         "notes": "She will make a great family dog.",
-        "img": "/images/dogs/tulip.jpg"
+        "img": "images/dogs/tulip.jpg"
     },
 
     {
@@ -77,6 +77,6 @@
         "gender":"F",
         "age": "Adult",
         "notes": "She is the friendliest dog you will ever meet.",
-        "img": "/images/dogs/sadie.jpg"
+        "img": "images/dogs/sadie.jpg"
     }
-]
+]}
