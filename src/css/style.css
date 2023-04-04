@@ -20,6 +20,20 @@
     background-color: #a333df;
 }
 
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+
+.question{
+    margin-top: 150px;
+}
 /*Home page dog selection*/
 .icon{
     width: 200px;
