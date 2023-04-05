@@ -13,7 +13,7 @@ export default defineConfig({
         small: resolve(__dirname, "src/small-dog.html"),
         adoption: resolve(__dirname, "src/adopt/index.html"),
         success: resolve(__dirname, "src/success.html"),
-        individual: resolve(__dirname, "src/dog.index.html")
+        individual: resolve(__dirname, "src/dog/index.html")
       },
     },
   }
