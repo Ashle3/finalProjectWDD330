@@ -1,4 +1,30 @@
 /* Home Page Banner */
+
+.hLogo{
+    width: 150px;
+    margin-right: 20px;
+}
+
+.main-header{
+    display: flex;
+    border-bottom: #a333df 5px solid;
+    padding-bottom: 10px;
+}
+
+.checkout{
+    width: 150px;
+    margin-left: 300px;
+}
+
+.checkout:hover{
+    box-shadow: 10px 10px 10px 10px lightblue;
+}
+
+.notice{
+    background-color: red;
+    color: white;
+}
+
 #cover{
     max-width:100%;
 }
@@ -93,10 +119,12 @@ h2{
     background-color: #a333df;
     color: white;
     width: 90%;
-    font-size: 15px;
+    font-size: 20px;
     position: absolute;
     bottom: 10px;
     left: 10px;
+    text-decoration: none;
+    text-align: center;
 }
 
 #meetDog:hover{
