@@ -1,4 +1,4 @@
-{"largeDogs": [
+[
     {
         "name": "Oslo",
         "breed": "German Shepherd",
@@ -50,7 +50,7 @@
         "gender":"M",
         "age":"Adult",
         "notes": "He is a large dog, but you will find that he is a gentle giant.",
-        "img": "image/dogs/blaze.jpg"
+        "img": "images/dogs/blaze.jpg"
     },
 
     {
@@ -79,4 +79,4 @@
         "notes": "She is the friendliest dog you will ever meet.",
         "img": "images/dogs/sadie.jpg"
     }
-]}
+]

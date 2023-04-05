@@ -67,6 +67,49 @@ h2{
     color: white;
 }
 
+/*Individual dog box*/
+
+#largedogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dogPic{
+    width: 300px;
+}
+
+.dogBox{
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    height: 500px;
+    align-content: center;
+}
+
+#meetDog{
+    padding: 10px;
+    border:#a333df;
+    background-color: #a333df;
+    color: white;
+    width: 90%;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#meetDog:hover{
+    background-color: lightgray;
+    color:#a333df;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.dogName{
+    text-align: center;
+}
+
 @media screen and (min-width: 500px) {
 
     body{

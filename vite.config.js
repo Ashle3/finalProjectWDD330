@@ -11,8 +11,9 @@ export default defineConfig({
         main: resolve(__dirname, "src/index.html"),
         large: resolve(__dirname, "src/large-dog.html"),
         small: resolve(__dirname, "src/small-dog.html"),
-        adoption: resolve(__dirname, "src/adoption-form.html"),
-        success: resolve(__dirname, "src/success.html")
+        adoption: resolve(__dirname, "src/adopt/index.html"),
+        success: resolve(__dirname, "src/success.html"),
+        individual: resolve(__dirname, "src/dog.index.html")
       },
     },
   }
