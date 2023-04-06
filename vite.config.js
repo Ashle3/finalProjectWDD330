@@ -14,6 +14,7 @@ export default defineConfig({
         adoption: resolve(__dirname, "src/adopt/index.html"),
         success: resolve(__dirname, "src/success/index.html"),
         individual: resolve(__dirname, "src/dog/index.html"),
+        individualtwo: resolve(__dirname, "src/dog1/index.html"),
         records: resolve(__dirname,"src/records/index.html")
       },
     },

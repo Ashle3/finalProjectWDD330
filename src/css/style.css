@@ -95,7 +95,7 @@ h2{
 
 /*Individual dog box*/
 
-#largedogs{
+#largedogs, #smalldogs{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
