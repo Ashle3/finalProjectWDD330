@@ -138,6 +138,61 @@ h2{
     text-align: center;
 }
 
+.dogPicLarge{
+    width: 500px;
+}
+
+.bold{
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+}
+
+.dogPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.words{
+    align-items: center;
+}
+
+.individh1{
+    text-align: left;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+ul li{
+    
+    margin-bottom: 20px;
+}
+
+.application{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #a333df;
+    color: white;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.application:hover{
+    background-color: lightgray;
+    color:#a333df;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer{
+    border-top:#a333df 5px solid;
+    margin-top: 40px;
+}
+
 @media screen and (min-width: 500px) {
 
     body{

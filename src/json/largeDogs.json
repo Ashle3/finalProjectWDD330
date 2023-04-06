@@ -1,82 +1,91 @@
 [
     {
+        "id": "0",
         "name": "Oslo",
         "breed": "German Shepherd",
         "gender": "M",
         "age": "Adult",
         "notes": "Will be a loyal companion for any family.",
-        "img": "images/dogs/oslo.jpg"
+        "img": "../images/dogs/oslo.jpg"
     },
 
     {
+        "id": "1",
         "name":"Ebony",
         "breed": "Black Lab",
         "gender": "F",
         "age": "Adult",
         "notes": "She is a shy but sweet girl.",
-        "img": "images/dogs/ebony.jpg"
+        "img": "../images/dogs/ebony.jpg"
     },
 
     {
+        "id": "2",
         "name": "Bailey",
         "breed": "Pitbull",
         "gender": "F",
         "age":"Adult",
         "notes": "She is a kind and gentle soul.",
-        "img": "images/dogs/bailey.jpg"
+        "img": "../images/dogs/bailey.jpg"
     },
 
     {
+        "id": "3",
         "name": "Remington",
         "breed": "Golden Retriever",
         "gender": "M",
         "age": "Senior",
         "notes": "He is a laid-back friend.",
-        "img": "images/dogs/remington.jpg"
+        "img": "../images/dogs/remington.jpg"
     },
 
     {
+        "id": "4",
         "name": "Maxwell",
         "breed": "Yellow Lab",
         "gender":"M",
         "age": "Adult",
         "notes": "He is an energetic and lovable pup.",
-        "img": "images/dogs/maxwell.jpg"
+        "img": "../images/dogs/maxwell.jpg"
     },
 
     {
+        "id": "5",
         "name": "Blaze",
         "breed": "Pitbull",
         "gender":"M",
         "age":"Adult",
         "notes": "He is a large dog, but you will find that he is a gentle giant.",
-        "img": "images/dogs/blaze.jpg"
+        "img": "../images/dogs/blaze.jpg"
     },
 
     {
+        "id": "6",
         "name": "Cinnabon",
         "breed": "Pitbull",
         "gender":"M",
         "age": "Puppy",
         "notes": "He is energetic, but is great with children.",
-        "img": "images/dogs/cinnabon.jpg"
+        "img": "../images/dogs/cinnabon.jpg"
     },
 
     {
+        "id": "7",
         "name": "Tulip",
         "breed": "Pitbull",
         "gender": "F",
         "age": "Puppy",
         "notes": "She will make a great family dog.",
-        "img": "images/dogs/tulip.jpg"
+        "img": "../images/dogs/tulip.jpg"
     },
 
     {
+        "id": "8",
         "name": "Sadie",
         "breed":"Golden Retriever",
         "gender":"F",
         "age": "Adult",
         "notes": "She is the friendliest dog you will ever meet.",
-        "img": "images/dogs/sadie.jpg"
+        "img": "../images/dogs/sadie.jpg"
     }
 ]
