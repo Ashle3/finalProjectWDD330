@@ -8,16 +8,27 @@ function getDogId(dogUrl){
     const dog = urlParams.get(dogUrl);
     return dog;
 }
-
 let dog = getDogId('id');
 
 //Grab the elements from the page
 let favorites = document.getElementById('favorites');
 let message = document.getElementById('message');
 
-function addToFavorites(array, dog){
-    array.push(largeDogs[dog].name);
+function addToFavorites(array, list, dog){
+    // let old_data = JSON.parse(localStorage.getItem('dog'));
+    let new_data = array.push(list[dog].name);
+    localStorage.setItem('dog', JSON.stringify(new_data));
 }
 
-favorites.addEventListener('click', addToFavorites(dogList, dog));
-localStorage.setItem('dogs', JSON.stringify(dog));
+// function addMore(array, list, dog){
+//     let old_data = JSON.parse(array.getItem('dog'));
+//     let new_data = old_data.push(list[dog].name);
+//     localStorage.setItem('dog', JSON.stringify(new_data));
+// }
+
+if(dogList.length = 0){
+    favorites.addEventListener('click', addToFavorites(dogList, largeDogs, dog));
+}
+// } else{
+//     favorites.addEventListener('click', addMore(dogList, largeDogs, dog));
+// }
