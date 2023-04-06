@@ -94,13 +94,13 @@ function createDogPage(dog){
     notes.innerHTML = `<span class='bold'>About ${largeDogs[dog].name}:</span> ${largeDogs[dog].notes}`;
     list.append(notes);
 
-    let application = document.createElement('a');
-    application.setAttribute('href', '../adopt/index.html');
-    application.innerHTML = `Adopt ${largeDogs[dog].name}`;
-    application.setAttribute('class', 'application');
+    // let application = document.createElement('a');
+    // application.setAttribute('href', '../adopt/index.html');
+    // application.innerHTML = `Adopt ${largeDogs[dog].name}`;
+    // application.setAttribute('class', 'application');
 
     words.append(list);
-    words.append(application);
+    // words.append(application);
     div.append(words);
 
     let page = document.createElement('div');

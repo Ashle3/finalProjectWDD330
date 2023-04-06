@@ -193,6 +193,20 @@ footer{
     margin-top: 40px;
 }
 
+/*Adding the favorites aspect*/
+#favorites{
+    background-color: white;
+    /* color: black; */
+    font-size: 70px;
+    border: none;
+    margin-left: 570px;
+}
+
+#favorites:hover{
+    background-color: blue;
+    color: white;
+}
+
 @media screen and (min-width: 500px) {
 
     body{
