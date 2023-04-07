@@ -1,3 +1,3 @@
 //create a global array
 
-export const dogList = [];
+// export const dogList = [];

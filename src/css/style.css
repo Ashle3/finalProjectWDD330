@@ -195,18 +195,31 @@ footer{
 
 /*Adding the favorites aspect*/
 #favorites{
-    background-color: white;
-    /* color: black; */
-    font-size: 70px;
+    background-color: #a333df;
+    color: white;
+    font-size: 20px;
     border: none;
-    margin-left: 570px;
+    margin-left: 40px;
+    padding: 10px;
+    width: 40%;
 }
 
 #favorites:hover{
     background-color: blue;
     color: white;
+    text-decoration: underline;
 }
 
+.like{
+    display: flex;
+    flex-direction: column;
+}
+
+#message{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
 @media screen and (min-width: 500px) {
 
     body{

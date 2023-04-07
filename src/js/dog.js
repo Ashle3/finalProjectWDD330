@@ -94,15 +94,58 @@ function createDogPage(dog){
     notes.innerHTML = `<span class='bold'>About ${largeDogs[dog].name}:</span> ${largeDogs[dog].notes}`;
     list.append(notes);
 
+    let like = document.createElement('div');
+    like.setAttribute('class', 'like');
+
+    let favorite = document.createElement('input');
+    favorite.setAttribute('type', 'button');
+    favorite.setAttribute('name', 'favorites');
+    favorite.setAttribute('id', `favorites`);
+    favorite.setAttribute('value', 'Like');
+    favorite.setAttribute('title', 'Add to favorites.');
+
+    
+    let number = document.getElementById('message');
+    // like.append(number);
+
+    let clickcounter = 0;
+    favorite.addEventListener('click', function(){
+    //     // dogList.push(largeDogs[dog].name);
+    //     // localStorage.setItem('dog', largeDogs[dog].name);
+        clickcounter +=1;
+        number.innerHTML = `${largeDogs[dog].name} has ${clickcounter} likes.`;
+    });
+
+
+    let buttons = document.createElement('div');
+
+    let remove = document.createElement('input');
+    remove.setAttribute('type', 'button');
+    remove.setAttribute('name', 'remove');
+    remove.setAttribute('id', `favorites`);
+    remove.setAttribute('value', 'Remove Like');
+    remove.setAttribute('title', 'Remove Like.');
+
+    remove.addEventListener('click', function(){
+        clickcounter -=1;
+        number.innerHTML = `${largeDogs[dog].name} has ${clickcounter} likes.`;
+    });
+
+    buttons.append(favorite);
+    buttons.append(remove);
+
+    like.append(buttons);
+    like.append(number);
+
     // let application = document.createElement('a');
     // application.setAttribute('href', '../adopt/index.html');
     // application.innerHTML = `Adopt ${largeDogs[dog].name}`;
     // application.setAttribute('class', 'application');
 
     words.append(list);
+    words.append(like);
     // words.append(application);
     div.append(words);
-
     let page = document.createElement('div');
     page.append(div);
     

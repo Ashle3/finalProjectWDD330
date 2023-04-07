@@ -42,13 +42,51 @@ function createDogPage(dog){
     notes.innerHTML = `<span class='bold'>About ${smallDogs[dog].name}:</span> ${smallDogs[dog].notes}`;
     list.append(notes);
 
-    let application = document.createElement('a');
-    application.setAttribute('href', '../adopt/index.html');
-    application.innerHTML = `Adopt ${smallDogs[dog].name}`;
-    application.setAttribute('class', 'application');
+    let like = document.createElement('div');
+    like.setAttribute('class', 'like');
+
+    let favorite = document.createElement('input');
+    favorite.setAttribute('type', 'button');
+    favorite.setAttribute('name', 'favorites');
+    favorite.setAttribute('id', `favorites`);
+    favorite.setAttribute('value', 'Like');
+    favorite.setAttribute('title', 'Add to favorites.');
+
+    let number = document.getElementById('message');
+
+    let clickcounter = 0;
+    favorite.addEventListener('click', function(){
+        clickcounter +=1;
+        number.innerHTML = `${smallDogs[dog].name} has ${clickcounter} likes.`;
+    });
+
+    let buttons = document.createElement('div');
+
+    let remove = document.createElement('input');
+    remove.setAttribute('type', 'button');
+    remove.setAttribute('name', 'remove');
+    remove.setAttribute('id', `favorites`);
+    remove.setAttribute('value', 'Remove Like');
+    remove.setAttribute('title', 'Remove Like.');
+
+    remove.addEventListener('click', function(){
+        clickcounter -=1;
+        number.innerHTML = `${smallDogs[dog].name} has ${clickcounter} likes.`;
+    });
+
+    buttons.append(favorite);
+    buttons.append(remove);
+
+    like.append(buttons);
+    like.append(number);
+
+    // let application = document.createElement('a');
+    // application.setAttribute('href', '../adopt/index.html');
+    // application.innerHTML = `Adopt ${smallDogs[dog].name}`;
+    // application.setAttribute('class', 'application');
 
     words.append(list);
-    words.append(application);
+    words.append(like);
     div.append(words);
 
     let page = document.createElement('div');

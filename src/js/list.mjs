@@ -1,10 +1,14 @@
 
-let list = document.getElementById('cart');
+// import { dogList } from "./favorites.mjs";
+// import largeDogs from "../json/largeDogs.json"  assert { type: 'JSON' }
 
-// export const dogList = [];
+// let cart = document.getElementById('cart');
+// let icon = document.getElementsByClassName('checkout');
 
-// let stuff = localStorage.setItem('dog', JSON.stringify())
+// if (dogList.length == 0){
+//     cart.innerHTML = "There is nothing.";
+// } else {
+//     icon.style.color = "red";
+// }
 
-let data = JSON.parse(localStorage.getItem('dog'));
 
-list.append(data);
